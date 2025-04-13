@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
-import Navbar from './components/navbar'
-import Forms from './components/forms'
-import Tables from './components/tables'
-import SearchBar from './components/searchbar'
+import Navbar from './components/Navbar'
+import Forms from './components/Forms'
+import Tables from './components/Tables'
+import SearchBar from './components/Searchbar'
 function App() {
+  
   return (
     <>
     <Navbar />
