@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
+import Navbar from './components/navbar'
+import Forms from './components/forms'
+import Tables from './components/tables'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+    <Navbar />
+    <Tables />
+    <Forms />
     </>
+    
   )
+  
 }
 
 export default App

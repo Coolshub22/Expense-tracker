@@ -27,7 +27,7 @@ export default function Tables() {
                     <td>Chapo</td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>$100.00</td>
                 </tr>
             </tbody>
         </table>
